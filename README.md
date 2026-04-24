@@ -1,6 +1,6 @@
 AI Image Classifier using MobileNetV2 and Streamlit
 
-This mini project implements an AI-based image classification web application that can automatically recognize objects in images. The system uses a pre-trained deep learning model (MobileNetV2) from the TensorFlow / Keras framework, which has been trained on the **ImageNet dataset containing thousands of object categories. The application is deployed through an interactive web interface built using Streamlit, allowing users to easily upload images and obtain predictions in real time.
+This mini project implements an AI-based image classification web application that can automatically recognize objects in images. The system uses a pre-trained deep learning model (MobileNetV2) from the TensorFlow / Keras framework, which has been trained on the ImageNet dataset containing thousands of object categories. The application is deployed through an interactive web interface built using Streamlit, allowing users to easily upload images and obtain predictions in real time.
 
 The system works by first loading the MobileNetV2 deep learning model, which is optimized for fast and efficient image classification. When a user uploads an image, the program preprocesses it by resizing it to 224 × 224 pixels, converting it into a numerical array, and applying normalization using the model’s preprocessing function. The processed image is then passed to the neural network, which analyzes visual patterns and features in the image.
 
